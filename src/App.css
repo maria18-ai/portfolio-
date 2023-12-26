@@ -1,0 +1,37 @@
+.btn_modal {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5381f3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    display: flex;
+    position: relative;
+    top: -370px;
+    left: 1200px;
+}
+
+.btn_modal:hover {
+    background-color: #1e40af;
+}
+
+.btn_modal_close {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5381f3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    display: flex;
+    position: relative;
+    top: -360px;
+    left: 1210px;
+}
+
+.btn_modal_close:hover {
+    background-color: #1e40af;
+}
