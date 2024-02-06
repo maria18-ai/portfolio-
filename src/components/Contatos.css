@@ -1,0 +1,26 @@
+.links_contatos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #27272a;
+    margin-left: 76.5rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    border: 1px solid #323232;
+    transition: 0.5s;
+  }
+  
+  
+  .links_contatos:hover {
+    background-color: #323232;
+    border: 1px solid #ddd;
+  }
+  
+  
+  .links_contatos span {
+    color: #fff;
+    font-size: 1.5rem;
+  }

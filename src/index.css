@@ -9,98 +9,6 @@ body {
   background-color: #181818;
 }
 
-/* navbar */
-.nav {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
-
-.links a {
-  position: relative;
-  padding-bottom: 0.75rem;
-  color: #fff;
-}
-
-.links a::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #1d4ed8;
-  transition: all 0.3s ease;
-}
-
-.links a:hover::after {
-  width: 70%;
-}
-
-.btn_contatos {
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #1d4ed8;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  list-style: none;
-  margin-left: 30rem;
-}
-
-.btn_contatos:hover {
-  background-color: #1e40af;
-}
-
-.btn:hover {
-  background-color: #1e40af;
-}
-
-
-a {
-  text-decoration: none;
-}
-
-/* contatos */
-
-.links_contatos {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  width: 150px;
-  height: 200px;
-  overflow: hidden;
-  background-color: #27272a;
-  margin-left: 76.5rem;
-  text-align: center;
-  border-radius: 10px;
-  padding: 1rem 2rem;
-  border: 1px solid #323232;
-  transition: 0.5s;
-}
-
-
-.links_contatos:hover {
-  background-color: #323232;
-  border: 1px solid #ddd;
-}
-
-
-.links_contatos span {
-  color: #fff;
-  font-size: 1.5rem;
-}
 
 /* header */
 .container {
@@ -167,15 +75,28 @@ header .image img {
 }
 
 /* Linguagens */
+.cardLing {
+  display: grid;
+  grid-column: auto;
+}
 
-.projects {
+.features {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 2rem;
 }
 
-.projects .card {
+/* projetos */
+
+.projects .features{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.projects .features .card {
   background-color: #27272a;
   padding: 1rem;
   border: 2px solid transparent;
@@ -185,7 +106,7 @@ header .image img {
   height: 400px;
 }
 
-.projects .card:hover {
+.projects .features .card:hover {
   background-color: #323232;
   border-color: #fff;
 }
@@ -222,7 +143,7 @@ header .image img {
   background-color: #4262c8;
 }
 
-/* projetos */
+/* hhhhhhhhhhhhhhh */
 
 .app {
   width: 100%;
@@ -276,14 +197,6 @@ header .image img {
 
 /* card projetos */
 
-section .header {
-  margin-bottom: 1rem;
-  color: #fff;
-  text-align: center;
-  font-size: 2.25rem;
-  font-weight: 600;
-  margin-top: -300px;
-}
 
 .features {
   margin-top: 4rem;

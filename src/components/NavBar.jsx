@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import {Link} from 'react-scroll'
 import Contatos from './Contatos'
 
+import './NavBar.css'
+
 export default function NavBar() {
 
     const [openContacts, setOpenContacts] = useState(false);
