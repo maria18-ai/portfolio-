@@ -10,6 +10,8 @@ import image6 from '../img/QrCode.PNG';
 import image7 from '../img/quiz-livros.png';
 import image8 from '../img/todo.PNG';
 
+import './SliderProjetos.css'
+
 function SliderProjetos() {
 
     const data = [
@@ -24,7 +26,8 @@ function SliderProjetos() {
     ];
 
     return (
-        <div className='container'>
+        <div className='container' id='projetos'>
+            <h2></h2>
             <Swiper
             slidesPerView={1}
             pagination={{clickable: true}}

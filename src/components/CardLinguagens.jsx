@@ -4,7 +4,7 @@ function CardLinguagens() {
     return (
         <div>
         <h2>LINGUAGENS</h2>
-        <section className='container'>
+        <section className='container' id='linguagens'>
             <div className="container">
                 <div className="container-linguagens">
                 <span><i class="ri-javascript-line"></i></span>

@@ -1,4 +1,4 @@
-import React from 'react'
+import './Footer.css'
 
 export default function Footer() {
     return (
@@ -6,8 +6,26 @@ export default function Footer() {
             <footer className='container'>
                 <span className='blur'></span>
                 <span className='blur'></span>
-                <p>2023 &copy; Maria Teodoro</p>
+                <p>
+                    Obrigado pela atenção! Fico muito feliz pelo seu interesse nos meus serviços.
+                </p>
+
+                <div className="socials">
+                    <a 
+                    href="https://github.com/maria18-ai" target='_blank'
+                    ><i class="ri-github-fill"></i>
+                    </a>
+
+                    <a 
+                    href="https://www.linkedin.com/in/maria-teodoro-b2250426a/" target='_blank'
+                    ><i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
             </footer>
+
+            <div className="copyright">
+                2024 &copy; Maria Teodoro
+            </div>
         </div>
     )
 }

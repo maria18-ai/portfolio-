@@ -73,16 +73,7 @@ header .image img {
   max-width: 600px;
   margin: auto;
 }
-
-/* slider */
-
-.slide-item {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
-
+ 
 .app {
   width: 100%;
   max-width: 1000px;
@@ -182,25 +173,6 @@ header .image img {
   font-size: 2.25rem;
   font-weight: 600;
   margin-top: 5rem; 
-}
-
-/* footer */
-footer {
-  position: relative;
-  color: #ccc;
-}
-
-footer p {
-  max-width: 1200px;
-  margin: auto;
-  padding: 1rem;
-  font-size: 0.8rem;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-footer p:hover {
-  color: #1d4ed8;
 }
 
 /* configs */
