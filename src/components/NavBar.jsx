@@ -19,12 +19,14 @@ export default function NavBar() {
                     offset={100} 
                     duration={500}>Home</Link></li>
 
-                    <li className='links
-                    '><Link to="linguagens" 
-                    spy={true} 
-                    smooth={true} 
-                    offset={100} 
-                    duration={500}>Linguagens</Link></li>
+                    <li className='links'> 
+                        <Link to='linguagens'
+                        spy={true}
+                        smooth={true}
+                        offset={100}
+                        duration={500} 
+                        >Linguagens</Link>
+                    </li>
                     
                     <li className='links
                     '><Link to="projetos" 
