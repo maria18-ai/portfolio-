@@ -10,7 +10,7 @@ export default function NavBar() {
             <section className='nav'>
                 <ul className="nav-links">
                     <li className='links'>
-                        <Link to="home" 
+                        <Link to="/" 
                         spy={true} 
                         smooth={true} 
                         offset={50} 

@@ -21,6 +21,7 @@ section {
     transition: all 0.3s ease;
     width: 300px;
     height: 400px;
+    cursor: pointer;
 }
 
 .container-linguagens:hover {
@@ -48,4 +49,27 @@ section {
 .container-linguagens p {
     color: #ccc;
     margin-bottom: 1rem;
+}
+
+/* responsivo */
+
+@media (max-width: 600px) {
+    h2 {
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        margin-right: 4rem;
+    }
+
+    section {
+        margin-top: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container-linguagens {
+        width: 250px;
+        height: 250px;
+        margin-right: 8rem;
+        margin-top: -5rem;
+    }
+    
 }

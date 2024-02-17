@@ -27,11 +27,12 @@ function SliderProjetos() {
 
     return (
         <div className='container' id='projetos'>
-            <h2></h2>
+            <h2>PROJETOS</h2>
             <Swiper
             slidesPerView={1}
             pagination={{clickable: true}}
             navigation
+            id='slide'
             >
                 {data.map((item) => (
                     <SwiperSlide key={item.id}>

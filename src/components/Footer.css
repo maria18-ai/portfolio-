@@ -48,3 +48,28 @@ footer p:hover {
     font-size: 0.8rem;
     text-align: center;
 }
+
+/* responsivo */
+
+@media (max-width: 600px) {
+
+    footer {
+        display: inline;
+    }
+
+    .container p {
+        font-size: .6rem;
+        text-align: justify;
+    }
+
+    footer .socials {
+        margin-left: 8rem;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        font-size: .5rem;
+        text-align: center;
+        margin-left: -3rem;
+}
+}

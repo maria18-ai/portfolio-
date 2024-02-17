@@ -7,7 +7,7 @@ export default function Footer() {
                 <span className='blur'></span>
                 <span className='blur'></span>
                 <p>
-                    Obrigado pela atenção! Fico muito feliz pelo seu interesse nos meus serviços.
+                    Obrigado pela atenção! <br></br>Fico muito feliz pelo seu interesse nos meus serviços.
                 </p>
 
                 <div className="socials">

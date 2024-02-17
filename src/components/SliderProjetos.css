@@ -7,3 +7,21 @@
 .container h2 {
     margin-bottom: 24rem;
 }
+
+/* responsivo */
+
+.container h2 {
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+}
+
+.slide-item {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#slide {
+    width: 300px;
+    margin-left: -0.3rem;
+}
