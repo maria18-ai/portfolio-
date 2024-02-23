@@ -3,10 +3,13 @@
 Este é o meu primeiro portfólio profissional, criado com o objetivo de apresentar os meus trabalhos e projetos ao longo dos anos de experiência com tecnologia e programação.
 
 
+
 ## 👩‍🏫 Como Utilizar 
 
 Como mencionado anteriormente, esta aplicação serve como meu portfólio profissional e pessoal, com o principal objetivo de destacar meu trabalho e minhas habilidades. 
 A interface é altamente intuitiva e fácil de usar; basta navegar e explorar os projetos de interesse. Sinta-se à vontade para entrar em contato comigo caso deseje mais informações ou discutir oportunidades de colaboração.
+
+
 
 ## 🚀 Clonagem 
 
@@ -39,5 +42,11 @@ Após todas as dependencias estarem instaladas, para rodar a aplicação em sua 
 
 ![npmrun](https://github.com/maria18-ai/cardapio-online/assets/131560480/6a7b4c38-8afc-44d2-8cef-cbbc2cad598b)
 
+
+
+## 📖 Pages 
+```
+https://maria18-ai.github.io/portfolio-/
+```
 
 Feito com ❤ por Maria.
